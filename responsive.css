@@ -62,6 +62,9 @@
       justify-content: center;
       align-items: center;
     }
+    .left__right__arrow{
+      display: none;
+    }
   
     /* standard__curiculam  */
     .standard__main__div h2 {
