@@ -1,0 +1,154 @@
+@media screen and (max-width: 680px) {
+
+    /* Sharend style */
+    .hero__section,
+    .standard__main__div,
+    .story__main__div,
+    .footer__sec {
+      width: calc(100% - 30px);
+      margin: 0px auto;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    /* Nav bar */
+    .navbar__items {
+      display: none;
+    }
+  
+    .use__mobile__device {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .use__mobile__device>hr {
+      border: 0.5px solid #FEA301;
+    }
+  
+    .use__mobile__card__items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      width: calc(100% - 30px);
+      margin: 0px auto;
+    }
+  
+    .hamburger {
+      width: 35px;
+    }
+  
+    /* hero__section section */
+    .hero__section {
+      flex-direction: column-reverse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .hero__left h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .hero__description {
+      text-align: center;
+    }
+  
+    .hero__left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* standard__curiculam  */
+    .standard__main__div h2 {
+      font-size: 26px;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  
+     /* Our stories */
+  .story-card {
+    display: none;
+  }
+
+  .cards-stories {
+    grid-template-columns: 1fr;
+  }
+  .img-story {
+    gap: 10px;
+  }
+
+  .date__line {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 12px;
+    width: 130px;
+    margin-top: -22px;
+  }
+
+  .text__p {
+    margin: 10px;
+  }
+
+  /* Footer */
+  .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .kids-edu p {
+    text-align: left;
+  }
+
+  .footer__navbar {
+    align-items: flex-start;
+    margin-top: 34px;
+  }
+
+  .social__icon {
+    margin-top: 34px;
+  }
+
+  footer {
+    padding: 100px 0;
+  }
+
+  /* Fixed */
+  .arrow-container {
+    display: none;
+  }
+
+  .story-container h2{
+    font-size: 30px;
+  }
+
+  .curriculum > h2{
+    font-size: 30px;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
